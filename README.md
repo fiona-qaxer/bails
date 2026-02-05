@@ -58,7 +58,7 @@ console.log("Ur pairing code : " + code)
 ## send orderMessage
 ```javascript
 const fs = require('fs');
-const ZeppImg = fs.readFileSync('./QaxerImage');
+const QaxerImg = fs.readFileSync('./QaxerImage');
 
 await client.sendMessage(m.chat, {
   thumbnail: QaxerImg,
